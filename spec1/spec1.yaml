@@ -60,6 +60,8 @@ definitions:
       name: "Standard"
   StandardRequest:
     type: "object"
+    required:
+    - "keyword"
     properties:
       keyword:
         type: "string"
