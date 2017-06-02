@@ -2,3 +2,5 @@ VERBATIM
 
 
 lets try to add a comment
+
+this is to fix bug 7
