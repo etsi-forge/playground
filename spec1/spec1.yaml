@@ -34,6 +34,8 @@ paths:
       responses:
         405:
           description: "Invalid input"
+        404:
+            description: "not found"
 definitions:
   Standard:
     type: "object"
