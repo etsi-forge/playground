@@ -32,7 +32,6 @@ paths:
         schema:
           $ref: "#/definitions/StandardRequest"
       responses:
-        TESTING VALIDATION OF OPENAPIS TEST. ASP
         405:
           description: "Invalid input"
         404:
