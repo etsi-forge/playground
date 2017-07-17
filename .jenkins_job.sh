@@ -1,14 +1,20 @@
 #!/bin/bash
 
-if [ "$JOB_BASE_NAME" = "forge-playground-oas-example"] ; then
+if [ "$JOB_BASE_NAME" = "forge-playground-oas-example" ] ; then
+    echo "Validating OAS spec"
     # Check if oas-example specification is valid openapis language
     swagger-tools validate oas-example/oas-example.yaml
+    res_code=$?
+    exit $res_code
 fi
 
-if [ "$JOB_BASE_NAME" = "playground-oas-code-gen"  ] ; then
-    echo "codegen for your project"
+if [ "$JOB_BASE_NAME" = "playground-oas-code-gen" ] ; then
+    echo "Codegen for OAS project"
+    res_code=$?
+    exit $res_code
 fi 
 
+echo "Nothing to build. (JOB_BASE_NAME = $JOB_BASE_NAME)"
 # This part is not used yet but could be a template to merge specifications
 
 # APIS_ROOT=
