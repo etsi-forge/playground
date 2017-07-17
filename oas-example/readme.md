@@ -10,4 +10,6 @@ The purpose for this folder is:
 
 Validation is currently implemented with swagger-tools validator.
 
+Note: You can also contribute directly in the browser with Gerrit.
+
 Contact: cti_support@etsi.org
