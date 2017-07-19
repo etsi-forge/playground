@@ -1,5 +1,7 @@
 # OAS Playground Example
 
+[![Build Status](https://forge.etsi.org/jenkins/buildStatus/icon?job=playground/forge-playground-oas-example)](https://forge.etsi.org/jenkins/job/playground/job/forge-playground-oas-example/)
+
 This folder contains an example of API spec
 written in OpenApi language.
 
