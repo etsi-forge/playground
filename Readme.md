@@ -5,10 +5,4 @@ This repository  is used to test ETSI Forge platform, for educational and practi
 
 ## Does gerrit post on bugzilla bugs?
 
-Let's try
-
-
-An admendement
-
-
-new stuff
+Not at the moment.
