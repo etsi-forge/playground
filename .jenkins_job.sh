@@ -1,6 +1,8 @@
 #!/bin/bash
 
 if [ "$JOB_BASE_NAME" = "forge-playground-oas-example" ] ; then
+    echo "GERRIT_PROJECT GERRIT_CHANGE_NUMBER/GERRIT_PATCHSET_NUMBER"
+    echo "$GERRIT_PROJECT $GERRIT_CHANGE_NUMBER/$GERRIT_PATCHSET_NUMBER"
     echo "Validating OAS spec"
     # Check if oas-example specification is valid openapis language
     swagger-tools validate oas-example/oas-example.yaml
