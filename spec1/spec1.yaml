@@ -21,9 +21,7 @@ paths:
       operationId: "queryStandards"
       consumes:
       - "application/json"
-      - "application/xml"
       produces:
-      - "application/xml"
       - "application/json"
       parameters:
       - in: "body"
