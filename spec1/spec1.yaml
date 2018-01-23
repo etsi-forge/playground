@@ -30,10 +30,16 @@ paths:
         schema:
           $ref: "#/definitions/StandardRequest"
       responses:
-        405:
+        200:
+          description: "The list of standards was retrieved correctly."
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Standard'
+        401:
           description: "Invalid input"
         404:
-            description: "not found"
+            description: "Not found"
 definitions:
   Standard:
     type: "object"
