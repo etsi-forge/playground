@@ -16,6 +16,13 @@ if [ "$JOB_BASE_NAME" = "playground-oas-code-gen" ] ; then
     exit $res_code
 fi 
 
+if [ "$JOB_BASE_NAME" = "playground-spec1-example" ] ; then
+    echo "Validation for Spec1 and Spec2 examples   "
+    swagger-tools validate spec1/*.yaml
+    res_code=$?
+    exit $res_code
+fi
+
 echo "Nothing to build. (JOB_BASE_NAME = $JOB_BASE_NAME)"
 # This part is not used yet but could be a template to merge specifications
 
