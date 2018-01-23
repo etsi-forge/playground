@@ -40,6 +40,13 @@ paths:
           description: "Invalid input"
         404:
             description: "Not found"
+    post:
+      summary: Create standard
+      description: Add a new standard record
+      responses:
+        200:
+          description: OK
+    
 definitions:
   Standard:
     type: "object"
@@ -57,21 +64,4 @@ definitions:
           wrapped: true
       status:
         type: "string"
-        description: "Status of the standard"
-        enum:
-        - "Draft"
-        - "Approval"
-        - "Published"
-    xml:
-      name: "Standard"
-  StandardRequest:
-    type: "object"
-    required:
-    - "keyword"
-    properties:
-      keyword:
-        type: "string"
-        example: "ITS"
-externalDocs:
-  description: "Find out more about ETSI Forge"
-  url: "http://etsi.org"
+        description: "Status of t
