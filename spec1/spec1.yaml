@@ -40,13 +40,6 @@ paths:
           description: "Invalid input"
         404:
             description: "Not found"
-    post:
-      summary: Create standard
-      description: Add a new standard record
-      responses:
-        200:
-          description: OK
-    
 definitions:
   Standard:
     type: "object"
