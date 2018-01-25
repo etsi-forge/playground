@@ -5,13 +5,11 @@ info:
   title: "FORGE playground example 1"
   termsOfService: "http://www.etsi.org/terms-of-use"
   contact:
-    email: "cti_support@etsi.org"
-  license:
-    name: "ETSI"
-    url: "http://www.etsi.org/terms-of-use"
-host: "forge.etsi.org"
-basePath: "/v1"
-schemes:
+    email: "cti_suppo
+    @@@@@
+    
+    ###
+    
 - "http"
 paths:
   /standard:
@@ -40,6 +38,12 @@ paths:
           description: "Invalid input"
         404:
             description: "Not found"
+    post:
+      summary: Upload a new standard
+      description: Use this to create a new ref to a standard
+      parameters:
+ '
+    
 definitions:
   Standard:
     type: "object"
@@ -51,27 +55,4 @@ definitions:
         type: "string"
         example: "ETSI EN 302 636-4-1"
       url:
-        type: "string"
-        xml:
-          name: "url"
-          wrapped: true
-      status:
-        type: "string"
-        description: "Status of the standard"
-        enum:
-        - "Draft"
-        - "Approval"
-        - "Published"
-    xml:
-      name: "Standard"
-  StandardRequest:
-    type: "object"
-    required:
-    - "keyword"
-    properties:
-      keyword:
-        type: "string"
-        example: "ITS"
-externalDocs:
-  description: "Find out more about ETSI Forge"
-  url: "http://etsi.org"
+        type: "str
