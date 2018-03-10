@@ -1,0 +1,36 @@
+swagger: '2.0'
+info:
+  version: 2.3.0
+  title: "Example: SOL003"
+  license:
+    name: ETSI Forge copyright notice
+    url: 'https://forge.etsi.org/etsi-forge-copyright-notice.txt'
+basePath: /vnflcm/v1
+schemes:
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /vnf_instances:
+    post:
+      description: The POST method creates a new VNF instance resource.
+      responses:
+        '201':
+          description: A VNF Instance identifier was created successfully
+          schema:
+            description: |
+              This type represents a VNF instance.
+            type: object
+            properties:
+              id:
+                description: |
+                  An identifier with the intention of being globally unique.
+                type: string
+              vnfInstanceName:
+                description: >
+                  Name of the VNF instance. This attribute can be modified with
+                  the PATCH method.
+                type: string
+              

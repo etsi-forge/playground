@@ -2,23 +2,15 @@
 
 This repository  is used to test ETSI Forge platform, for educational and practising purposes.
 
+**WARNING: Do no reply on any content in this repository. This is an open playground for ETSI Forge users! Expect incorrect, incomplete and unstable content.**
 
-## Does gerrit post on bugzilla bugs?
+## Gerrit and Bugzilla integration?
 
-Not at the moment. It seems.
+Simply use Bug # (e.g. Bug 14) in the commit message and Gerrit will generate the link towards the appropriate Bugzilla issue.
 
-# ETSI Forge playground
+# How to try
 
-This repository  is used to test ETSI Forge platform, for educational and practising purposes.
-
-DO NOT RELY ON THIS MATERIAL.
-
-## Does gerrit post on bugzilla bugs?
-
-Let's try
-
-
-An admendement
+Go to [the project page](https://forge.etsi.org/gerrit/#/admin/projects/playground) to find the clone command and the "Create change" button to enter modifications directly in Gerrit (use Branch:Target and empty Topic). 
 
 # Copyright
 

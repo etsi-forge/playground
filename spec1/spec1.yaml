@@ -4,13 +4,6 @@ info:
   version: "1.1.1"
   title: "FORGE playground example 1"
   termsOfService: "http://www.etsi.org/terms-of-use"
-  contact:
-    email: "cti_suppo
-    @@@@@
-    
-    ###
-    
-- "http"
 paths:
   /standard:
     get:

@@ -1,3 +1,3 @@
 [submodule "test-v1.0.0"]
 	path = test-v1.0.0
-	url = ssh://carignani@forge.etsi.org:29418/test
+	url = ssh://forge.etsi.org:29418/test

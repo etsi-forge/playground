@@ -1,6 +1,4 @@
-***********************
-SPEC1
-***********************
+# SPEC1
 
 This folder contains an example of API spec
 writte in OpenApi language.
